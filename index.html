@@ -1,36 +1,41 @@
 <DOCTYPE! html>
     <html>
         <head>
+            <link href="style.css" rel="stylesheet">
             <title>Google</title>
-
         </head>
         <body>
             <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Store</li>
-                    <li>Gmail</li>
-                    <li>Images</li>
-                    <li><img src="http://simpleicon.com/wp-content/uploads/dots.png" alt="Google apps" height="20px" width="20px"></li>
-                    <li>Sign In</li>
+                <ol>
+                    <li class="nav-left">About</li>
+                    <li class="nav-left">Store</li>   
+                    <li class="nav-right">Sign In</li>
+                    <li class="nav-right"><img src="http://simpleicon.com/wp-content/uploads/dots.png" alt="Google apps" height="20px" width="20px"></li>
+                    <li class="nav-right">Images</li>
+                    <li class="nav-right">Gmail</li>
 
-                </ul>
+                </ol>
 
             </nav>
-            <div>
-                <img src="https://www.festisite.com/static/partylogo/img/logos/google.png" height="100px" width="200px" alt="Google"/>
-                <input type="text" name="search bar">
-                <button class="search" type="button">Google Search</button>
-                <button class="lucky" type="button">I'm Feeling Lucky</button>
-
+            <div class="main">
+                <div class="logo">
+                  <img src="https://www.festisite.com/static/partylogo/img/logos/google.png" height="100px" width="300px" alt="Google"/>
+                </div>
+                <div class="search-bar">
+                  <input type="text" name="search bar">
+                </div>
+                <div class="buttons">
+                  <button class="search" type="button">Google Search</button>
+                  <button class="lucky" type="button">I'm Feeling Lucky</button>
+                </div>
             </div>
             <footer>
                 <ul>
-                    <li>Advertising</li>
-                    <li>Business</li>
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Settings</li>
+                    <li class="foot-left">Advertising</li>
+                    <li class="foot-left">Business</li>
+                    <li class="foot-right">Privacy</li>
+                    <li class="foot-right">Terms</li>
+                    <li class="foot-right">Settings</li>
                 </ul>
 
             </footer>
