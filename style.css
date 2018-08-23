@@ -2,6 +2,14 @@ nav li {
     display: inline;
     justify-items: left;
     padding: 5px;
+    
+    
+}
+
+nav li a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
 }
 
 .nav-right {
@@ -10,69 +18,109 @@ nav li {
 }
 
 .main {
-   width: 200px;
-   margin: 150px auto;
-   
+   width: 100%;
+   height: 300px;
+   margin: 175px auto;
+   overflow: auto;
+   text-align: center;
 }
 
 .logo {
-    
-    width: 200px;
+    margin: 0 auto;
     
 }
+
 .search-bar {
-    width: 300px;
+    margin: 15px auto;
+    width: 400px;
     
 }
 input {
     
-    width: 300px;
-    height: 30px;
+    width: 400px;
+    height: 40px;
 }
 
 .buttons {
-    text-align: center;
+    margin-top: 15px;
     display: inline-block;
-    position: absolute;
-    margin: 20px;
+    
+    
+    ;
 }
 
 .search {
-  height: 25px;
-  width: 100px;
+  height: 40px;
+  width: 130px;
   padding: 5px;
+  text-align: center;
+  background: rgb(242, 242, 242);
+  border: 2px rgb(242, 242, 242) solid;
+  border-radius: 2px;
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.search:hover {
+    border: 1px rgb(168, 168, 168) solid;
+    color: rgb(29, 29, 29);
 }
 
 .lucky {
-    height: 25px;
-  width: 120px;
+    height: 40px;
+  width: 145px;
   padding: 5px;
+  text-align: center;
+  background: rgb(242, 242, 242);
+  border: 2px rgb(242, 242, 242) solid;
+  border-radius: 2px;
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.lucky:hover {
+    border: 1px rgb(168, 168, 168) solid;
+    color: rgb(29, 29, 29);
 }
 
 footer {
     
-    position:absolute;
+   position: absolute;
    bottom:0;
-   width:100%;
-   height:40px;
-    background: rgba(0,0,0,.10);
-    
-    
+   left: 0;
+   width: 100%;
+   background: rgb(242, 242, 242);
+   
+   
 }
 
 footer li {
     display: inline;
-    padding: 5px;
-    font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    
 }
 
+footer li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+}
+
+
 .foot-left {
-    padding-left: 20px;
+    padding-right: 20px;
     float: left;
 }
 
 .foot-right {
     float: right;
     padding-right: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
